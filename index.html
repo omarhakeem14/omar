@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Meta Tags -->
+  <title>عمر عبد الحكيم - مطور واجهات Front-End | تحويل أفكارك التقنية إلى واجهات تبيع</title>
+  <meta name="description"
+    content="مطور واجهات محترف متخصص في بناء مواقع سريعة، متجاوبة ومحسّنة لمحركات البحث. خبرة في تطوير صفحات الهبوط، تحويل تصاميم Figma، والمواقع التعريفية للشركات.">
+  <meta name="keywords"
+    content="تطوير واجهات, Front-End Developer, HTML, CSS, JavaScript, صفحات هبوط, تصميم مواقع, مطور ويب">
+  <meta name="author" content="عمر عبد الحكيم">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="عمر عبد الحكيم - مطور واجهات Front-End محترف">
+  <meta property="og:description" content="أحول أفكارك التقنية إلى واجهات تبيع - تطوير سريع، متجاوب، كود نظيف">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <!-- Header & Navigation -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#hero" class="logo">عمر عبد الحكيم</a>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#hero" class="nav-link">الرئيسية</a></li>
+        <li><a href="#about" class="nav-link">لماذا أنا؟</a></li>
+        <li><a href="#portfolio" class="nav-link">أعمالي</a></li>
+        <li><a href="#services" class="nav-link">الخدمات</a></li>
+        <li><a href="#testimonials" class="nav-link">آراء العملاء</a></li>
+        <li><a href="#contact" class="nav-link">تواصل معي</a></li>
+      </ul>
+
+      <div style="display: flex; align-items: center; gap: 1rem;">
+        <button class="theme-toggle" id="theme-toggle" aria-label="تبديل الوضع الليلي">
+          <span id="theme-icon">🌙</span>
+        </button>
+        <button class="mobile-menu-toggle" id="mobile-toggle" aria-label="القائمة">
+          ☰
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero section" id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">أحول أفكارك التقنية إلى واجهات تبيع</h1>
+          <p class="hero-subtitle">
+            مطور واجهات محترف متخصص في بناء مواقع سريعة ⚡ ومتجاوبة مع الموبايل 📱 وكود نظيف 💻
+            <br>
+            أساعدك في تحويل رؤيتك الرقمية إلى واقع ملموس يحقق أهدافك
+          </p>
+          <div class="hero-cta">
+            <a href="#contact" class="btn btn-primary">
+              <span>ابدأ مشروعك الآن</span>
+              <span>🚀</span>
+            </a>
+            <a href="#portfolio" class="btn btn-secondary">
+              <span>تصفح أعمالي</span>
+              <span>👀</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img src="images/hero.png" alt="مساحة عمل المطور" loading="eager">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Me / Value Proposition Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">لماذا تختارني؟</h2>
+        <p class="section-description">
+          لست مجرد مطور يكتب أكواد، أنا شريكك في النجاح الرقمي
+        </p>
+      </div>
+
+      <div class="value-grid">
+        <div class="value-card">
+          <div class="value-icon">🎨</div>
+          <h3 class="value-title">تجربة مستخدم استثنائية</h3>
+          <p class="value-description">
+            أصمم واجهات تركز على راحة المستخدم وسهولة التصفح، لأن الموقع الجميل الذي لا يحقق أهدافه لا قيمة له.
+          </p>
+        </div>
+
+        <div class="value-card">
+          <div class="value-icon">⚡</div>
+          <h3 class="value-title">سرعة تحميل فائقة</h3>
+          <p class="value-description">
+            أبني مواقع محسّنة للأداء العالي، لأن كل ثانية تأخير تعني خسارة زوار. مواقعي تحمّل في أقل من ثانيتين.
+          </p>
+        </div>
+
+        <div class="value-card">
+          <div class="value-icon">📅</div>
+          <h3 class="value-title">التزام بمواعيد التسليم</h3>
+          <p class="value-description">
+            أقدّر وقتك وأهمية المواعيد لمشروعك. أسلّم العمل في الوقت المحدد مع ضمان الجودة العالية.
+          </p>
+        </div>
+
+        <div class="value-card">
+          <div class="value-icon">💻</div>
+          <h3 class="value-title">كود نظيف قابل للتطوير</h3>
+          <p class="value-description">
+            أكتب أكواد منظمة وموثّقة بأفضل الممارسات، مما يسهل التطوير المستقبلي وإضافة ميزات جديدة.
+          </p>
+        </div>
+
+        <div class="value-card">
+          <div class="value-icon">📱</div>
+          <h3 class="value-title">متجاوب مع جميع الأجهزة</h3>
+          <p class="value-description">
+            مواقعي تعمل بمثالية على الموبايل، التابلت، والكمبيوتر. لأن أكثر من 70% من التصفح يحدث عبر الموبايل.
+          </p>
+        </div>
+
+        <div class="value-card">
+          <div class="value-icon">🔍</div>
+          <h3 class="value-title">محسّن لمحركات البحث SEO</h3>
+          <p class="value-description">
+            أبني مواقع صديقة لمحركات البحث منذ البداية، مما يساعد موقعك على الظهور في النتائج الأولى لجوجل.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="section" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">معرض أعمالي</h2>
+        <p class="section-description">
+          مشاريع حقيقية قمت بتطويرها لعملاء راضين
+        </p>
+      </div>
+
+      <div class="portfolio-grid">
+        <article class="portfolio-item">
+          <img src="images/portfolio-1.png" alt="متجر إلكتروني" class="portfolio-image" loading="lazy">
+          <div class="portfolio-content">
+            <h3 class="portfolio-title">متجر إلكتروني متكامل</h3>
+            <p class="portfolio-description">
+              <strong>المشكلة:</strong> عميل يحتاج متجر إلكتروني سريع ومتجاوب لبيع منتجاته.
+              <br>
+              <strong>الحل:</strong> بنيت واجهة عصرية مع سلة تسوق ديناميكية ونظام فلترة سلس.
+            </p>
+            <a href="#contact" class="portfolio-link">
+              <span>معاينة المشروع</span>
+              <span>→</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="portfolio-item">
+          <img src="images/portfolio-2.png" alt="صفحة هبوط" class="portfolio-image" loading="lazy">
+          <div class="portfolio-content">
+            <h3 class="portfolio-title">صفحة هبوط لشركة تقنية</h3>
+            <p class="portfolio-description">
+              <strong>المشكلة:</strong> شركة ناشئة تحتاج صفحة هبوط تحوّل الزوار إلى عملاء.
+              <br>
+              <strong>الحل:</strong> صممت صفحة بتصميم جذاب وCTA واضح، معدل التحويل زاد 45%.
+            </p>
+            <a href="#contact" class="portfolio-link">
+              <span>معاينة المشروع</span>
+              <span>→</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="portfolio-item">
+          <img src="images/portfolio-3.png" alt="موقع شركة" class="portfolio-image" loading="lazy">
+          <div class="portfolio-content">
+            <h3 class="portfolio-title">موقع تعريفي لشركة استشارات</h3>
+            <p class="portfolio-description">
+              <strong>المشكلة:</strong> شركة بحاجة لواجهة احترافية تعكس مصداقيتها.
+              <br>
+              <strong>الحل:</strong> طورت موقع بتصميم premium مع dashboard تفاعلي وأقسام محسّنة للـ SEO.
+            </p>
+            <a href="#contact" class="portfolio-link">
+              <span>معاينة المشروع</span>
+              <span>→</span>
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">الخدمات التي أقدمها</h2>
+        <p class="section-description">
+          حلول متكاملة لاحتياجاتك الرقمية
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">🚀</div>
+          <h3 class="service-title">صفحات الهبوط</h3>
+          <p class="service-description">
+            بناء صفحات هبوط (Landing Pages) محسّنة للتحويل، مصممة خصيصاً لتحويل الزوار إلى عملاء وتحقيق أهدافك
+            التسويقية.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🎨</div>
+          <h3 class="service-title">تحويل Figma إلى موقع حقيقي</h3>
+          <p class="service-description">
+            تحويل تصميماتك من Figma إلى مواقع حية بكود نظيف، مع الحفاظ التام على كل تفاصيل التصميم الأصلي.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🏢</div>
+          <h3 class="service-title">المواقع التعريفية للشركات</h3>
+          <p class="service-description">
+            تطوير مواقع تعريفية احترافية للشركات والمشاريع، مع تصميم يعكس هوية علامتك التجارية بشكل مميز.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">⚙️</div>
+          <h3 class="service-title">تحسين الأداء والسرعة</h3>
+          <p class="service-description">
+            تحسين سرعة تحميل موقعك الحالي وتحسين الأداء، مما يحسن تجربة المستخدم وترتيبك في محركات البحث.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">📱</div>
+          <h3 class="service-title">جعل الموقع متجاوب</h3>
+          <p class="service-description">
+            تحويل موقعك القديم إلى موقع متجاوب بالكامل يعمل بمثالية على جميع الأجهزة والشاشات.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🔧</div>
+          <h3 class="service-title">صيانة ودعم فني</h3>
+          <p class="service-description">
+            صيانة دورية وإضافة ميزات جديدة لموقعك، مع دعم فني مستمر لضمان عمل الموقع بشكل مثالي دائماً.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="section" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">ماذا يقول العملاء</h2>
+        <p class="section-description">
+          آراء حقيقية من عملاء راضين عن جودة العمل
+        </p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <p class="testimonial-text">
+            "عمر مطور محترف جداً. سلّم المشروع قبل الموعد بيومين والجودة كانت أعلى من توقعاتي. الموقع سريع جداً ويعمل
+            بمثالية على الموبايل. بالتأكيد سأعمل معه مرة أخرى!"
+          </p>
+          <div class="testimonial-author">
+            <img src="https://ui-avatars.com/api/?name=Ahmed+Mostafa&background=3b82f6&color=fff&size=120"
+              alt="أحمد مصطفى" class="testimonial-avatar">
+            <div class="testimonial-info">
+              <h4>أحمد مصطفى</h4>
+              <p>صاحب متجر إلكتروني</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="testimonial-text">
+            "كنت أبحث عن مطور يفهم احتياجاتي ولا يعطيني حلول عامة. عمر أعطاني استشارات قيّمة وطوّر لي صفحة هبوط زادت
+            التحويلات عندي بنسبة 40%. أنصح بالتعامل معه!"
+          </p>
+          <div class="testimonial-author">
+            <img src="https://ui-avatars.com/api/?name=Sara+Ali&background=8b5cf6&color=fff&size=120" alt="سارة علي"
+              class="testimonial-avatar">
+            <div class="testimonial-info">
+              <h4>سارة علي</h4>
+              <p>مديرة تسويق</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="testimonial-text">
+            "من أفضل المطورين اللي تعاملت معهم. الكود نظيف ومنظم، والتواصل ممتاز. حوّل تصميم Figma بتاعنا لموقع حقيقي
+            بدقة 100%. شكراً عمر على الاحترافية!"
+          </p>
+          <div class="testimonial-author">
+            <img src="https://ui-avatars.com/api/?name=Khaled+Hassan&background=06b6d4&color=fff&size=120"
+              alt="خالد حسن" class="testimonial-avatar">
+            <div class="testimonial-info">
+              <h4>خالد حسن</h4>
+              <p>مؤسس شركة تقنية</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">ابدأ مشروعك الآن</h2>
+        <p class="section-description">
+          تواصل معي وسأرد عليك خلال 24 ساعة
+        </p>
+      </div>
+
+      <div class="contact-wrapper">
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <label for="name" class="form-label">الاسم الكامل</label>
+            <input type="text" id="name" name="name" class="form-input" placeholder="أدخل اسمك الكامل" required
+              autocomplete="name">
+          </div>
+
+          <div class="form-group">
+            <label for="email" class="form-label">البريد الإلكتروني</label>
+            <input type="email" id="email" name="email" class="form-input" placeholder="example@email.com" required
+              autocomplete="email">
+          </div>
+
+          <div class="form-group">
+            <label for="message" class="form-label">رسالتك</label>
+            <textarea id="message" name="message" class="form-textarea"
+              placeholder="أخبرني عن مشروعك وكيف يمكنني مساعدتك..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary form-submit">
+            <span>إرسال الرسالة</span>
+            <span>📧</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>عمر عبد الحكيم</h3>
+          <p>مطور واجهات محترف متخصص في بناء تجارب رقمية استثنائية.</p>
+          <div class="social-links">
+            <a href="https://github.com" class="social-link" aria-label="GitHub" target="_blank"
+              rel="noopener noreferrer">
+              <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.840 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.430.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+              </svg>
+            </a>
+            <a href="https://linkedin.com" class="social-link" aria-label="LinkedIn" target="_blank"
+              rel="noopener noreferrer">
+              <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+              </svg>
+            </a>
+            <a href="https://twitter.com" class="social-link" aria-label="Twitter" target="_blank"
+              rel="noopener noreferrer">
+              <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h3>روابط سريعة</h3>
+          <ul class="footer-links">
+            <li><a href="#hero">الرئيسية</a></li>
+            <li><a href="#about">لماذا أنا؟</a></li>
+            <li><a href="#portfolio">أعمالي</a></li>
+            <li><a href="#services">الخدمات</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>تواصل معي</h3>
+          <ul class="footer-links">
+            <li><a href="mailto:omar2010hakeem14@gmail.com">📧 omar2010hakeem14@gmail.com</a></li>
+            <li><a href="tel:+201093781061">📱 01093781061</a></li>
+            <li>📍 القاهرة، مصر</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 عمر عبد الحكيم. جميع الحقوق محفوظة. صُنع بـ ❤️ و ☕</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js" defer></script>
+</body>
+
+</html>
